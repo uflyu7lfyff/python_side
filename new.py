@@ -14,4 +14,4 @@ titles = root.find_all("div", class_="title")
 # print(titles.a.string)
 for title in titles:
     if title.a != None:
-        print(title.a.string)
+        print(title.a.string)  # 012
